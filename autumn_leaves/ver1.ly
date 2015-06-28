@@ -1,10 +1,13 @@
 \version "2.17.2"
+date = #(strftime "%d-%m-%Y" (localtime (current-time)))
 
 \header {
   % copyright = "copyright"
   title = "Autumn Leaves"
   subtitle = "Walking bass line"
   composer = "Seydou DIA"
+  opus = \date
+  tagline = ""
   % arranger = "arranger"
   % instrument = "instrument"
   % metre = "metre"
